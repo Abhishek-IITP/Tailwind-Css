@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-hide::-webkit-scrollbar{
+    display: none;
+}
+.scrollbar-hide{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* .mohit{
+    background: cyan;
+} */
+
+.dark\:underline:where([data-mode="dark"], [data-mode="dark"] *){
+    text-decoration-line: underline
+  }
